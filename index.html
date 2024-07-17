@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/d49c351224.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-------------------HEADER------------------ -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">ORATO</a>
+
+            <div class="nav__menu" id="nav__menu">
+                <ul class="nav__list">
+                    <li>
+                        <a href="#home" class="nav__link">Home</a>
+                    </li>
+                    <li>
+                        <a href="#work" class="nav__link">Work</a>
+                    </li>
+                    <li>
+                        <a href="#info" class="nav__link">My Info</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="nav__link">Contact Me</a>
+                    </li>
+                </ul>
+
+                <!-- Close Button -->
+                 <div class="nav__close" id="nav__close">
+                    <i class="fa-solid fa-xmark"></i>
+                 </div>
+            </div>
+
+
+            <!-- Toogle Button -->
+            <div class="nav__toggle" id="nav__toggle">
+            <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+
+    </header>
+
+
+    <!-------------------Main Body------------------ -->
+    <main class="class">
+        
+
+        <!-- Home -->
+        <section class="home section" id="home">
+            <div class="home__container container">
+                <img src="img\Personal.png" alt="personal" class="home__img">
+
+                <div class="home__data">
+                    <h1 class="home__name">Orato, Drian</h1>
+                    <h3 class="home__profession">Web Developer</h3>
+                </div>
+
+                <a href="#work" class="home__scroll">
+                    <div class="home__scroll__box">
+                        <i class="fa-solid fa-arrow-down"></i>
+
+
+                    </div>
+
+                    <span class="home__scroll__text">My Works</span>
+                </a>
+            </div>
+
+        </section>
+
+
+        <!-- Work Section -->
+        <section class="work section" id="work">
+            <h2 class="section__title">RECENT WORKS</h2>
+            <div class="work__container container">
+
+                <article class="work__card">
+                    <a href="#" class="work__link" target="_blank">
+                        <h2 class="work__title">Online Admission Website</h2>
+                        <p class="work__description">
+                            An online college admission for Datamex College of Saint Adeline with email verification based PHP.
+                        </p>
+
+                        <img src="img\project_1.jpg" alt="project1" class="work__img">
+
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </article>
+
+                <article class="work__card">
+                    <a href="#" class="work__link" target="_blank">
+                        <h2 class="work__title">Bakeshop Landing Page</h2>
+                        <p class="work__description">
+                            A simple web landing page for my client based Javascript that contain recipe for baking.
+                        </p>
+
+                        <img src="img\project_2.webp" alt="project1" class="work__img">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </article>
+
+                <article class="work__card">
+                    <a href="#" class="work__link" target="_blank">
+                        <h2 class="work__title">POS Desktop Application</h2>
+                        <p class="work__description">
+                            A client-based capstone project work with vb.net and modern design in lan-based connection.
+                        </p>
+
+                        <img src="img\project_3.jpg" alt="project1" class="work__img">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </article>
+
+                <article class="work__card">
+                    <a href="#" class="work__link" target="_blank">
+                        <h2 class="work__title">Employee Management Application</h2>
+                        <p class="work__description">
+                            An employee attendance management with barcode scanner and I.D maker.
+                        </p>
+
+                        <img src="img\project_4.jpg" alt="project1" class="work__img">
+
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </article>
+
+                <article class="work__card">
+                    <a href="#" class="work__link" target="_blank">
+                        <h2 class="work__title">Booking System Application</h2>
+                        <p class="work__description">
+                            An onsite seat booking system for sport stadium with lan-based connection using VB.net.
+                        </p>
+
+                        <img src="img\project_5.jpg" alt="project1" class="work__img">
+
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </article>
+            </div>
+        </section>
+
+        <!-- === INFO === -->
+        <section class="info section" id="info">
+            <h2 class="section__title">My Info</h2>
+
+            <div class="info__container container">
+
+                <!-- ==About Myself== -->
+                <div class="about">
+                    <div class="about__content">
+                        <h3 class="info__title">About Me</h3>
+                        <p class="about__description">
+                            A person who love to create a <b>web-based project</b> with <b>modern</b> and <b>minimalist U.I design </b>.
+                            I do multiple part time job to continue my study in college. One is making web project for student and some small company.
+                        </p>
+                        <a href="img\orato_drian_CV.pdf" download="" target="_blank" class="button about__button">Download CV</a>
+                    </div>
+
+                    <img src="img\grad_pic.jpg" alt="grad_pic" class="about__img">
+                </div>
+                <!-- ==Coding Experience== -->
+                <!-- <div class="experience">
+
+                </div> -->
+
+                <!-- ==Skills== -->
+                <div class="skills">
+                    <div class="info__title">Skills</div>
+
+                    <div class="skills__content">
+                        <div class="skills__box">
+                            <img src="img\html_logo.svg" alt="image" class="skills__img">
+                            <span class="skills__name">HTML</span>
+                        </div>
+                        <div class="skills__box">
+                            <img src="img\css_logo.png" alt="image" class="skills__img">
+                            <span class="skills__name">CSS</span>
+                        </div>
+                        <div class="skills__box">
+                            <img src="img\javascript_logo.png" alt="image" class="skills__img">
+                            <span class="skills__name">Javascript</span>
+                        </div>
+                        <div class="skills__box">
+                            <img src="img\PHP_logo.svg" alt="image" class="skills__img">
+                            <span class="skills__name">PHP</span>
+                        </div>
+                        <div class="skills__box">
+                            <img src="img\VBnet.svg" alt="image" class="skills__img">
+                            <span class="skills__name">VB.NET</span>
+                        </div>
+                        <div class="skills__box">
+                            <img src="img\Bootstrap.png" alt="image" class="skills__img">
+                            <span class="skills__name">Bootstrap CSS</span>
+                        </div>
+                    </div>
+                </div>
+                
+
+            </div>
+        </section>
+
+        <!-- === Contact Section === -->
+
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contact Me</h2>
+            <div class="contact__container container "> 
+                <form action="" class="contact__form" id="contact__form"> <!--grid -->
+                    <div class="contact__group"> <!--grid -->
+                        <input type="text" name="" placeholder="Name" required class="contact__input">
+                        <input type="email" name="" placeholder="Email" required class="contact__input">
+                    </div>
+
+                    <textarea name="" placeholder="Message" required  class="contact__input contact__area"></textarea>
+
+                    <button type="submit" class="button contact__button">Send Message</button>
+
+                    <p class="contact__message" id="contact__message"></p>
+
+                </form>
+
+                <div class="contact__social"> <!--grid -->
+                    <a href="https://www.facebook.com/orato.drian" target="_blank" class="contact__social__link">
+                        <!-- facebook logo-->
+                        <i class="fa-brands fa-facebook"></i>
+                        <span>Facebook</span>
+                    </a>
+                    <a href="https://www.google.com/" target="_blank" class="contact__social__link">
+                        <!-- google logo -->
+                        <i class="fa-brands fa-google"></i>
+                        <span>Google</span>
+                    </a>
+                    <a href="https://www.linked.com/" target="_blank" class="contact__social__link">
+                        <!-- linked logo -->
+                        <i class="fa-brands fa-linkedin"></i>
+                        <span>Linked</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-------------------Footer------------------ -->
+    <footer class="footer">
+        <div class="footer__container container">
+            <ul class="footer_links">
+                <li>
+                    <a href="#home" class="footer__link">Home</a>
+                </li>
+                <li>
+                    <a href="#work" class="footer__link">Work</a>
+                </li>
+                <li>
+                    <a href="#info" class="footer__link">Info</a>
+                </li>
+            </ul>
+
+            <span class="footer__copy">
+                @Credit to Bedicome, All Rights Reserved
+            </span>
+
+        </div>
+    </footer>
+
+    <!-- === Scroll Up ==== -->
+
+    
+
+
+
+
+
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
